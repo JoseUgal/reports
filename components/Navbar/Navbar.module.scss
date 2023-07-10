@@ -1,0 +1,12 @@
+.Navbar {
+  @apply bg-gray-300 dark:bg-gray-900;
+
+  &__wrapper {
+    @apply flex justify-between items-center h-[60px];
+  }
+
+  &__item {
+    @apply min-w-[60px] h-[60px] bg-gray-300 hover:bg-gray-600 dark:bg-gray-900 dark:hover:bg-gray-950;
+    @apply flex items-center justify-center;
+  }
+}
